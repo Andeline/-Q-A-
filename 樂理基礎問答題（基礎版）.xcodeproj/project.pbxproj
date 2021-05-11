@@ -7,21 +7,27 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5767B822264A4CFC0005E688 /* Question.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5767B821264A4CFC0005E688 /* Question.swift */; };
+		5767B831264A71730005E688 /* crayon_1-1.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5767B830264A71730005E688 /* crayon_1-1.ttf */; };
+		5767B834264A71860005E688 /* jf-openhuninn-1.1.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5767B833264A71850005E688 /* jf-openhuninn-1.1.ttf */; };
+		5767B839264A76110005E688 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5767B838264A76110005E688 /* Assets.xcassets */; };
 		57A37D3026497F4F00C51D57 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57A37D2F26497F4F00C51D57 /* AppDelegate.swift */; };
 		57A37D3226497F4F00C51D57 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57A37D3126497F4F00C51D57 /* SceneDelegate.swift */; };
 		57A37D3426497F4F00C51D57 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57A37D3326497F4F00C51D57 /* ViewController.swift */; };
 		57A37D3726497F4F00C51D57 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 57A37D3526497F4F00C51D57 /* Main.storyboard */; };
-		57A37D3926497F5400C51D57 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 57A37D3826497F5400C51D57 /* Assets.xcassets */; };
 		57A37D3C26497F5400C51D57 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 57A37D3A26497F5400C51D57 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5767B821264A4CFC0005E688 /* Question.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Question.swift; sourceTree = "<group>"; };
+		5767B830264A71730005E688 /* crayon_1-1.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "crayon_1-1.ttf"; sourceTree = "<group>"; };
+		5767B833264A71850005E688 /* jf-openhuninn-1.1.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "jf-openhuninn-1.1.ttf"; sourceTree = "<group>"; };
+		5767B838264A76110005E688 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		57A37D2C26497F4F00C51D57 /* 樂理基礎問答題（基礎版）.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "樂理基礎問答題（基礎版）.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		57A37D2F26497F4F00C51D57 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		57A37D3126497F4F00C51D57 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		57A37D3326497F4F00C51D57 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		57A37D3626497F4F00C51D57 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		57A37D3826497F5400C51D57 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		57A37D3B26497F5400C51D57 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		57A37D3D26497F5400C51D57 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -56,13 +62,16 @@
 		57A37D2E26497F4F00C51D57 /* 樂理基礎問答題（基礎版） */ = {
 			isa = PBXGroup;
 			children = (
+				5767B833264A71850005E688 /* jf-openhuninn-1.1.ttf */,
+				5767B830264A71730005E688 /* crayon_1-1.ttf */,
 				57A37D2F26497F4F00C51D57 /* AppDelegate.swift */,
 				57A37D3126497F4F00C51D57 /* SceneDelegate.swift */,
 				57A37D3326497F4F00C51D57 /* ViewController.swift */,
 				57A37D3526497F4F00C51D57 /* Main.storyboard */,
-				57A37D3826497F5400C51D57 /* Assets.xcassets */,
+				5767B821264A4CFC0005E688 /* Question.swift */,
 				57A37D3A26497F5400C51D57 /* LaunchScreen.storyboard */,
 				57A37D3D26497F5400C51D57 /* Info.plist */,
+				5767B838264A76110005E688 /* Assets.xcassets */,
 			);
 			path = "樂理基礎問答題（基礎版）";
 			sourceTree = "<group>";
@@ -124,9 +133,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5767B834264A71860005E688 /* jf-openhuninn-1.1.ttf in Resources */,
+				5767B831264A71730005E688 /* crayon_1-1.ttf in Resources */,
 				57A37D3C26497F5400C51D57 /* LaunchScreen.storyboard in Resources */,
-				57A37D3926497F5400C51D57 /* Assets.xcassets in Resources */,
 				57A37D3726497F4F00C51D57 /* Main.storyboard in Resources */,
+				5767B839264A76110005E688 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,6 +149,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				57A37D3426497F4F00C51D57 /* ViewController.swift in Sources */,
+				5767B822264A4CFC0005E688 /* Question.swift in Sources */,
 				57A37D3026497F4F00C51D57 /* AppDelegate.swift in Sources */,
 				57A37D3226497F4F00C51D57 /* SceneDelegate.swift in Sources */,
 			);
